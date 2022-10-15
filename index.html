@@ -6,10 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/4e21f39399.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Rubik:wght@400;600;800&display=swap"
-        rel="stylesheet">
     <link rel="stylesheet" href="./build/css/app.css">
     <title>JV Desarrollador Web</title>
 </head>
@@ -20,41 +16,87 @@
             <h4>JV</h4>
         </div>
         <div class="header__navbar">
-            <a href="#">Inicio</a>
-            <a href="#">Sobre Mi</a>
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre_mi">Sobre Mi</a>
             <a href="#">Trabajos</a>
             <a href="#">Servicios</a>
             <a href="#">Cotactame</a>
         </div>
         <div class="header__social">
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-linkedin-in"></i>
+            <a href="#">
+                <i class="fa-brands fa-square-facebook"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
         </div>
     </header>
-    <section class="hero">
-        <div class="hero__texto">
+    <section class="hero" id="inicio">
+        <div class="hero__texto contenedor">
             <h2>
-                Juan Valladares
+                Soy Juan
             </h2>
             <h1>
                 Desarrollador de paginas web
             </h1>
+            <hr>
             <P>
-                Crea una pagina web para tu empresa o para ti. Dinamica, atractiva y diferente.
+                Creo paginas web para personas y empresas. Dinamicas, atractiva y eficientes.
             </P>
             <a href="#" class="boton">Contactame</a>
         </div>
-        <img class="svg" src="./src/svg/llaves.svg" alt="icono">
-        <img class="svg" src="./src/svg/hashtag.svg" alt="icono">
-        <img class="svg" src="./src/svg/Ellipse 1.svg" alt="icono">
-        <img class="svg" src="./src/svg/Ellipse 2.svg" alt="icono">
-        <img class="svg" src="./src/svg/Ellipse 3.svg" alt="icono">
-        <img class="svg" src="./src/svg/Ellipse 4.svg" alt="icono">
-        <img class="svg" src="./src/svg/Ellipse 5.svg" alt="icono">
-        <img class="svg" src="./src/svg/Vector 1.svg" alt="icono">
-        <img class="svg" src="./src/svg/Vector.svg" alt="icono">
+        <img class="hero__img--background"  src="./src/svg/Vector 1.svg" alt="">
     </section>
+
+    <main>
+        <section id="sobre_mi" class="contenedor">
+            <div class="sobre-mi__imagen">
+                <img src="./src/svg/Vector 2.svg" alt="">
+            </div>
+            <div class="contenedor-texto contenedor">
+                <h4>Sobre mi</h4>
+                <h2>
+                    ¡Hola!
+                </h2>
+                <hr>
+                <p>
+                    Mi nombre es Juan. Soy desarrollador web, programador y estusiasta del diseño UI/UX. Me dedico a
+                    crear páginas web para todo tipo de personas y negocios. Me apasiona la programación, el diseño y la
+                    música.
+                </p>
+                <p class="p2">Mis Conocimientos</p>
+                <div class="conocimientos">
+                    <div class="conocimientos__logo">
+                        <i class="fa-brands fa-html5"></i>
+                        <p>HTML</p>
+                    </div>
+                    <div class="conocimientos__logo">
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <p>CSS</p>
+                    </div>
+                    <div class="conocimientos__logo">
+                        <i class="fa-brands fa-square-js"></i>
+                        <p>JS</p>
+                    </div>
+                    <div class="conocimientos__logo">
+                        <i class="fa-brands fa-sass"></i>
+                        <p>sass</p>
+                    </div>
+                    <div class="conocimientos__logo">
+                        <i class="fa-brands fa-figma"></i>
+                        <p>Figma</p>
+                    </div>
+                    <div class="conocimientos__logo">
+                        <i class="fa-brands fa-react"></i>
+                        <p>React</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <script src="./build/js/index.js"></script>
 </body>

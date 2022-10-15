@@ -7,30 +7,34 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding: 1.6rem;
-    background: linear-gradient(0deg, rgba(250,245,246,0.8543904622395834) 0%, rgba(250,245,246,1) 18%);
-
-    .header__logo {
-        h4 {
-            color: v.$color1;
-        }
-    }
+    padding: 1.6rem 3.2rem;
+    background: v.$blanco;
 
     .header__navbar {
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
         a {
             padding: 0 .8rem;
-            color: v.$color1;
             transition: all .5s ease;
 
             &:hover {
-                color: v.$color2;
+                color: v.$color1;
             }
         }
     }
 
     .header__social {
-        i{
-            margin: 0 .4rem;
+        i {
+            margin: 0 .8rem;
+            transition: all .5s ease;
+
+            &:hover {
+                color: v.$color1;
+            }
         }
     }
 }
