@@ -1,0 +1,89 @@
+@use 'variables' as v;
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    height: 200vh;
+    background-color: v.$blanco;
+}
+
+.contenedor {
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: v.$fuente1;
+}
+
+h1,
+h2 {
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+h1 {
+    color: v.$color1;
+    font-size: 7rem;
+    text-shadow: 0 10px 10px rgba($color: #000000, $alpha: .15);
+}
+
+h2 {
+    font-size: 3.91rem;
+}
+
+h3 {
+    font-size: 3.13rem;
+}
+
+h4 {
+    font-size: 2.5rem;
+}
+
+P {
+    font-weight: 400;
+    font-family: v.$fuente2;
+    font-size: 1.6rem;
+}
+
+a {
+    font-family: v.$fuente1;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+}
+
+i{
+    font-size: 1.6rem;
+}
+
+.boton {
+    display: inline-block;
+    background-color: v.$color2;
+    border-radius: 10rem;
+    padding: 1.6rem 4rem;
+    color: v.$blanco;
+    transition: all .4s ease;
+
+    &:hover {
+        background-color: v.$color1;
+        transform: scale(1.1);
+    }
+}

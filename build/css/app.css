@@ -1,0 +1,177 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  height: 200vh;
+  background-color: #FAF5F6;
+}
+
+.contenedor {
+  width: 95%;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Rubik", sans-serif;
+}
+
+h1,
+h2 {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+h1 {
+  color: #333566;
+  font-size: 7rem;
+  text-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+}
+
+h2 {
+  font-size: 3.91rem;
+}
+
+h3 {
+  font-size: 3.13rem;
+}
+
+h4 {
+  font-size: 2.5rem;
+}
+
+P {
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+}
+
+a {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+}
+
+i {
+  font-size: 1.6rem;
+}
+
+.boton {
+  display: inline-block;
+  background-color: #EF233C;
+  border-radius: 10rem;
+  padding: 1.6rem 4rem;
+  color: #FAF5F6;
+  transition: all 0.4s ease;
+}
+.boton:hover {
+  background-color: #333566;
+  transform: scale(1.1);
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero .hero__texto {
+  text-align: center;
+}
+.hero .hero__texto h2 {
+  color: #738DB2;
+  text-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+}
+.hero .hero__texto h1 {
+  max-width: 70rem;
+}
+.hero .hero__texto p {
+  margin: 1.6rem auto 0 auto;
+  max-width: 40rem;
+  color: #738DB2;
+}
+.hero .hero__texto .boton {
+  margin-top: 3.2rem;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 15px 10px 0 rgba(0, 0, 0, 0.1);
+}
+.hero .svg {
+  position: absolute;
+}
+.hero .svg:nth-child(2) {
+  left: 13rem;
+  bottom: 30rem;
+}
+.hero .svg:nth-child(3) {
+  right: 8rem;
+  bottom: 25rem;
+}
+.hero .svg:nth-child(4) {
+  right: 0;
+  bottom: -3rem;
+}
+.hero .svg:nth-child(5) {
+  left: 0;
+  bottom: -3rem;
+}
+.hero .svg:nth-child(6) {
+  left: 22rem;
+  bottom: 21rem;
+}
+.hero .svg:nth-child(7) {
+  right: 26rem;
+  bottom: 10rem;
+}
+.hero .svg:nth-child(8) {
+  right: 18rem;
+  bottom: 25rem;
+}
+.hero .svg:nth-child(9) {
+  right: 28rem;
+  bottom: 22rem;
+}
+.hero .svg:nth-child(10) {
+  left: 28rem;
+  bottom: 12rem;
+}
+
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1.6rem;
+  background: linear-gradient(0deg, rgba(250, 245, 246, 0.8543904622) 0%, rgb(250, 245, 246) 18%);
+}
+.header .header__logo h4 {
+  color: #333566;
+}
+.header .header__navbar a {
+  padding: 0 0.8rem;
+  color: #333566;
+  transition: all 0.5s ease;
+}
+.header .header__navbar a:hover {
+  color: #EF233C;
+}
+.header .header__social i {
+  margin: 0 0.4rem;
+}
