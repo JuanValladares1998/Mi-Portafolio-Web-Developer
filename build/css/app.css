@@ -153,6 +153,7 @@ hr {
   width: 100%;
   padding: 1.6rem 3.2rem;
   background: #fffdf8;
+  z-index: 10;
 }
 .header .header__navbar {
   position: absolute;
